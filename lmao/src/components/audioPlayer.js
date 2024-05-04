@@ -15,8 +15,8 @@ function AudioPlayer() {
 
     return (
         <div>
-            <button onClick={playAudio}>Play</button>
-            <button onClick={pauseAudio}>Pause</button>
+            <button onClick={playAudio}>▶️</button>
+            <button onClick={pauseAudio}>⏸</button>
         </div>
     );
 }
