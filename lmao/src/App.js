@@ -1,9 +1,12 @@
 import logo from './logo.svg';
+import AudioPlayer from './components/audioPlayer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <h1>purring player</h1>
+      <AudioPlayer />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
