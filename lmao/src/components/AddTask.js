@@ -1,18 +1,27 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../index.css';
-import {add} from '../assets';
 
-const AddTask = () => {
+export const AddTask = ({addTodo}) => {
+  const [value, setValue] = useState('');
+
+    const handleSubmit = (e) => {
+      // prevent default action
+        e.preventDefault();
+        if (value) {
+          // add todo
+          addTodo(value);
+          // clear form after submission
+          setValue('');
+        }
+      };
   return (
-    <button className='add-task-button'>
-        <div className='add-task-wrapper'>
-            <img src={add} alt="add button" />
-            <div className='text-style-footnote'>
-                Add task
-            </div>
-        </div>
-        
-    </button>
+    <form onSubmit={handleSubmit} className="card-task-details">
+      <div className='text-style-footnote'>
+          Add a task
+      </div>
+      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} className="input-field" placeholder='Add your task here' />
+      <button type="submit" className='secondary-button'>Add task</button>
+    </form>
   )
 }
 

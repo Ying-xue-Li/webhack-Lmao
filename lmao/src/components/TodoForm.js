@@ -1,4 +1,7 @@
 import React, {useState} from 'react'
+import '../index.css';
+import {cross} from '../assets';
+
 
 export const TodoForm = ({addTodo}) => {
     const [value, setValue] = useState('');
@@ -14,9 +17,12 @@ export const TodoForm = ({addTodo}) => {
         }
       };
   return (
-    <form onSubmit={handleSubmit} className="TodoForm">
-    <input type="text" value={value} onChange={(e) => setValue(e.target.value)} className="todo-input" placeholder='What is the task today?' />
-    <button type="submit" className='todo-btn'>Add Task</button>
-  </form>
+    <form onSubmit={handleSubmit} className="card-task-details">
+      <div className='text-style-footnote'>
+          Add a task
+      </div>
+      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} className="input-field" placeholder='Add your task here' />
+      <button type="submit" className='secondary-button'>Add task</button>
+    </form>
   )
 }

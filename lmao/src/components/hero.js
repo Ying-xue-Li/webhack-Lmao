@@ -19,7 +19,7 @@ const Hero = () => {
                 </div>
                 
                 <button className='primary-button'>
-                    Click the button below to hear cat purring
+                    Get started
                 </button>
 
             </div> 

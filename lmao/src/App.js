@@ -1,5 +1,5 @@
 import AudioPlayer from './components/audioPlayer';
-import Hero from './components/hero'
+import Hero from './components/Hero'
 import TaskSection from './components/TaskSection'
 import './App.css';
 import { Timer } from './components/Timer';
@@ -7,7 +7,6 @@ import styles from './style';
 import { Helmet } from 'react-helmet';
 import CardsBox from './components/cardsBox'
 import  {TodoWrapper}  from './components/TodoWrapper';
-import MovingEyes from './components/MovingEye';
 
 function App() {
   return (
@@ -28,20 +27,12 @@ function App() {
           defer
         />
       </Helmet>
-      <div
-          style={{
-            display: "flex",
-            justifyContent: "center"
-          }}
-        ><MovingEyes/></div>
       <main className={`${styles.flexCenter} main-wrapper`}>
         <Hero/>
-        
         <AudioPlayer/>
         <Timer/>
-        {/* <TaskSection/> */}
-        <TodoWrapper/>
-        <CardsBox />
+        <TaskSection/>
+        {/*<CardsBox />*/}
       </main>
     </div>
   );
