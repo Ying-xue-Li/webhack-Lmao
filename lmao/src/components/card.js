@@ -1,11 +1,11 @@
-export default function Card({ color }) {
+export default function Card({ color, title, text1, text2 }) {
     return (
       <div
         // className={
         //   `bg-hc-${courseData.color} w-full h-full rounded-3xl p-10 border border-black flex flex-col justify-between cursor-pointer`
         // }
         style={{
-          width: 500,
+          width: 400,
           border: "1px solid black",
           height: 300,
           borderRadius: 20,
@@ -29,7 +29,7 @@ export default function Card({ color }) {
             alignItems: "flex-start"
           }}
         >
-          <span
+          {/* <span
             // className={` ${OpticianSans.className} text-5xl`}
             style={{
               fontFamily: "Optician Sans",
@@ -37,16 +37,16 @@ export default function Card({ color }) {
             }}
           >
             Hope this one helps
-          </span>
+          </span> */}
           <span
             className="text-4xl font-thin"
             style={{
               fontSize: 38,
               letterSpacing: 2,
-              fontWeight: 100
+              fontWeight: 200
             }}
           >
-            Suki's advice
+            She said:{title}
           </span>
         </div>
         <div
@@ -76,9 +76,10 @@ export default function Card({ color }) {
               gap: 2,
               lineHeight: 1.5,
               textAlign: "left",
-              fontWeight: 100,
+              fontWeight: 200,
               opacity: 0.8,
-              fontSize: 20
+              fontSize: 16,
+              wordBreak: "break-word"
             }}
           >
             <p
@@ -86,10 +87,10 @@ export default function Card({ color }) {
                 marginBottom: 0
               }}
             >
-              Get out, hydrate, sunshine, meat, and birds.
+              {text1}
             </p>
             <p>
-              Book a therapy, extension, or a ticket to another timezone.
+              {text2}
             </p>
           </div>
         </div>

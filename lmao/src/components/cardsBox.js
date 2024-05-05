@@ -11,35 +11,61 @@ const colors = {
 const cardData = [
   {
     color: colors.red,
-    id: 1
+    id: 1,
+    title: "Short Extension",
+    text1:"Did you forget to book a short extension? Every student can get a two-day extension unconditionally. ",
+    text2:"Give yourself 2 days to catch your breath at https://forms.monash.edu/special-consideration "
   },
   {
     color: colors.gray,
-    id: 2
+    id: 2,
+    title: "Mental Thrapy",
+    text1:"Feeling overwhelmed? call (03) 9905 3020",
+    text2:"Did you know that every student can has 10 free therapy \
+    sessions per year at the uni? https://www.monash.edu/students/support/health/mental-health/resources "
   },
   {
     color: colors.blue,
-    id: 3
+    id: 3,
+    title: "To Another Timezone",
+    text1:"Deadline approaching? Book a ticket to a different timezone!",
+    text2:"The further you go, the further your deadline gets away from you! https://www.virginaustralia.com/au/en/ "
   },
   {
     color: colors.green,
-    id: 4
+    id: 4,
+    title:"Gamble",
+    text1:"Sign a gamble agreement with your friend!",
+    text2:"Pledge $100 to your friend, and if you fail to complete the task on time, you will lose the money.\
+    Let's pray that you don't end up both failing to complete the task and losing $100."
   },
   {
     color: colors.red,
-    id: 5
+    id: 5,
+    title:"Buy Lottery",
+    text1:"Life is already tough, but if you still hold onto hope, go ahead and buy a lottery ticket. ",
+    text2:"Even though the odds of winning are low, at least you'll have that moment of excitement and anticipation right before the draw."
   },
   {
     color: colors.gray,
-    id: 6
+    id: 6,
+    title:"Dopamine Detox",
+    text1:"I know it's harsh, but putting your phone in the living room cabinet, keeping it away, or uninstalling YouTube and TikTok can be really helpful.",
+    text2:"I'm just a cat, I don't understand why my owner has deleted and reinstalled these apps so many times."
   },
   {
     color: colors.blue,
-    id: 7
+    id: 7,
+    title:"Emotional Support",
+    text1:"Call your family, friends, or anyone you trust.",
+    text2:"Meeting up with them, hugging, and talking will all be very helpful in reconnecting you with a sense of community."
   },
   {
     color: colors.green,
-    id: 8
+    id: 8,
+    title:"Death Loop Alarm",
+    text1:"If you're tough enough on yourself, then set a reminder every five minutes to pull your attention back on track. ",
+    text2:"This will not only torture you but also your roommates, and me."
   }
 ];
 
@@ -87,7 +113,7 @@ export default function CardsBox() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh"
+        height: "20vh"
       }}
     >
       <div
@@ -97,7 +123,8 @@ export default function CardsBox() {
         ref={boxRef}
       >
         {cardData.map((item, index) => {
-          return <Card key={item.id} color={item.color} />;
+          return <Card 
+          key={item.id} color={item.color} title={item.title} text1={item.text1} text2={item.text2}/>;
         })}
       </div>
     </div>
