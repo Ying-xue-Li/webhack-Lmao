@@ -110,7 +110,7 @@ export default function CardsBox() {
     <div
       id="container"
       style={{
-        // color: "white",
+        backgroundColor: "#131316",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -119,7 +119,7 @@ export default function CardsBox() {
     >
       <div
         style={{
-          backgroundColor:"white",
+          backgroundColor:"#131316",
           display: "flex"
         }}
         ref={boxRef}

@@ -13,12 +13,7 @@ export default function Card({ color, title, text1, text2 }) {
           }}
         >
           <span
-            className="text-style-headline"
-            style={{
-              fontSize: 38,
-              letterSpacing: 2,
-              fontWeight: 200
-            }}
+            className="heading-style-headline"
           >
             Suki says:{title}
           </span>
@@ -38,8 +33,8 @@ export default function Card({ color, title, text1, text2 }) {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="5" cy="5" r="4.5" stroke="black" />
-            <circle cx="17.5" cy="5" r="5" fill="black" />
+            <circle cx="5" cy="5" r="4.5" stroke="white" />
+            <circle cx="17.5" cy="5" r="5" fill="white" />
           </svg>
           <div
             className="text-xl font-thin flex flex-col gap-2 leading-8"
@@ -57,13 +52,15 @@ export default function Card({ color, title, text1, text2 }) {
             }}
           >
             <p
+            className='text-style-footnote'
               style={{
                 marginBottom: 0
-              }}
-            >
+              }}>
               {text1}
             </p>
-            <p>
+
+            <p
+            className='text-style-footnote'>
               {text2}
             </p>
           </div>
