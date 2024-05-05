@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import '../index.css';
 import { Todo } from "./Todo";
 import styles from '../style';
-import TaskCard from './TaskCard';
 import AddTask from './AddTask';
-import TaskDone from './TaskDone';
 import { v4 as uuidv4 } from "uuid";
 import { EditTask } from "./EditTask";
 

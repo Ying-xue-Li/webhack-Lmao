@@ -1,6 +1,5 @@
 import React from 'react'
 import '../index.css';
-import {tick} from '../assets';
 
 const TaskDone = () => {
   return (

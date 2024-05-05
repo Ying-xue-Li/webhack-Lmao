@@ -8,14 +8,14 @@ export const Timer = () => {
     const [inputMin, setInputMin] = useState(0);
     const [isRunning, setIsRunning] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
-
-    let timer;
+    // const timer = useRef(null);
 
     useEffect(() => {
+        let IntervalId;
         if (isRunning) {
-            timer = setInterval(() => {
+            IntervalId = setInterval(() => {
                 if (sec === 0 && min === 0) {
-                    clearInterval(timer);
+                    clearInterval(IntervalId);
                     setIsRunning(false);
                 } else if (sec === 0) {
                     setMin(prevMin => prevMin - 1);
@@ -26,7 +26,7 @@ export const Timer = () => {
             }, 1000);
         }
 
-        return () => clearInterval(timer);
+        return () => clearInterval(IntervalId);
     }, [isRunning, sec, min]);
 
     const startTimer = () => {

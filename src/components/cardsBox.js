@@ -21,8 +21,7 @@ const cardData = [
     id: 2,
     title: "Mental Therapy",
     text1:"Feeling overwhelmed? call (03) 9905 3020",
-    text2:"Did you know that every student can has 10 free therapy \
-    sessions per year at the uni? https://www.monash.edu/students/support/health/mental-health/resources "
+    text2:"Did you know that every student can has 10 free therapy sessions per year at the uni? https://www.monash.edu/students/support/health/mental-health/resources "
   },
   {
     color: colors.blue,
@@ -36,8 +35,7 @@ const cardData = [
     id: 4,
     title:"Gamble",
     text1:"Sign a gamble agreement with your friend!",
-    text2:"Pledge $100 to your friend, and if you fail to complete the task on time, you will lose the money.\
-    Let's pray that you don't end up both failing to complete the task and losing $100."
+    text2:"Pledge $100 to your friend, and if you fail to complete the task on time, you will lose the money. Let's pray that you don't end up both failing to complete the task and losing $100."
   },
   {
     color: colors.red,
@@ -50,8 +48,8 @@ const cardData = [
     color: colors.gray,
     id: 6,
     title:"Dopamine Detox",
-    text1:"I know it's harsh, but putting your phone in the living room cabinet, keeping it away, or uninstalling YouTube and TikTok can be really helpful.",
-    text2:"I'm just a cat, I don't understand why my owner has deleted and reinstalled these apps so many times."
+    text1:"I know it's harsh, but putting your phone in cabinet, or uninstalling YouTube and TikTok.",
+    text2:"I'm just a cat, I don't know why you deleted and reinstalled these apps so many times."
   },
   {
     color: colors.blue,
