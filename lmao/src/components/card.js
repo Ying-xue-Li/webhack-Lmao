@@ -46,7 +46,7 @@ export default function Card({ color, title, text1, text2 }) {
               fontWeight: 200
             }}
           >
-            She said:{title}
+            Suki says:{title}
           </span>
         </div>
         <div
