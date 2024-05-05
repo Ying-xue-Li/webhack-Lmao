@@ -68,12 +68,6 @@ const TaskSection = () => {
             <text className={`${styles.Body} text-style-body-caps`}>TO DO</text>
             <TaskCard/>
           </div>
-
-          <div className='done-wrapper'>
-            <text className={`${styles.Body} text-style-body-caps`}>DONE</text>
-            <TaskDone/>
-          </div>
-                
           </div>
         </div>
       </div>
