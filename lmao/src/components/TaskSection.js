@@ -61,7 +61,7 @@ const TaskSection = () => {
             deleteTodo={deleteTodo}
             editTodo={editTodo}
             toggleComplete={toggleComplete}
-          />
+            />
             )
           )}
           <div className='todo-wrapper'>

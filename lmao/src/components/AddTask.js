@@ -19,8 +19,8 @@ export const AddTask = ({addTodo}) => {
       <div className='text-style-footnote'>
           Add a task
       </div>
-      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} className="input-field" placeholder='Add your task here' />
-      <button type="submit" className='secondary-button'>Add task</button>
+      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} className="input-field" style={{ color: '#EFEFEF' }} placeholder='Add your task here' />
+      <button type="submit" className='completion-button'>Add task</button>
     </form>
   )
 }
