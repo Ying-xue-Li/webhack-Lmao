@@ -1,5 +1,5 @@
 import AudioPlayer from './components/audioPlayer';
-import Hero from './components/Hero'
+import Hero from './components/hero'
 import TaskSection from './components/TaskSection'
 import './App.css';
 import { Timer } from './components/Timer';
@@ -30,9 +30,9 @@ function App() {
       <main className={`${styles.flexCenter} main-wrapper`}>
         <Hero/>
         <AudioPlayer/>
-        <Timer/>
+        <Timer />
         <TaskSection/>
-        {/*<CardsBox />*/}
+        <CardsBox />
       </main>
     </div>
   );
