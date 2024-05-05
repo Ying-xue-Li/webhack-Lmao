@@ -1,13 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 0px 0px;
+  font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading-style-h1 {
+  font-size: 68px;
+  line-height: 96px;
+  margin: 0px;
+  background: linear-gradient(180deg, rgba(201,201,201,1) 0%, rgba(96,96,96,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.heading-style-h2 {
+  font-size: 48px;
+  line-height: 64px;
+  margin: 0px;
+  color: #EFEFEF;
+}
+
+.heading-style-headline {
+  font-size: 34px;
+  line-height: 48px;
+  margin: 0px;
+  color: #EFEFEF;
+}
+
+.text-style-body {
+  font-size: 17px;
+  line-height: 24px;
+  color: #EFEFEF;
+  text-align: center;
+  max-width: 560px;
+}
+
+.text-style-footnote {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #EFEFEF;
+  text-align: center;
+  max-width: 560px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7rem 0;
+  gap: 1.25rem;
+}
+
+.primary-button {
+  color: #EFEFEF;
+  padding: 0.5rem 1.5rem;
+  background: #212126;
+  border: 1px solid #3E3E46;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  text-shadow: 0 0 10px #C54D27,
+    0 0 20px #C54D27;
+  cursor: pointer;
+}
+
+.secondary-button{
+  color: #EFEFEF;
+  padding: 0.5rem 1.5rem;
+  background: #212126;
+  border: 1px solid #3E3E46;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  cursor: pointer;
 }

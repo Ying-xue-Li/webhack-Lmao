@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Timer.css';
+import '../index.css';
 
 export const Timer = () => {
     const [sec, setSec] = useState(0);
@@ -62,16 +63,19 @@ export const Timer = () => {
     };
 
     return (
-        <div className="timer">
+        <section className="timer">
             <div className='container'>
-                <div className='timer_container'>
-                    <h1>Timer</h1>
+                <div className='timer-container'>
+                    <h3 className='heading-style-headline'>Timer</h3>
+
                     <div
                         onClick={handleTimeClick}
                         className={`timer_display ${isEditing ? 'editing' : ''}`}
                     >
                         {isEditing ? (
                             <input
+                                className='input-field'
+                                style={{ color: '#EFEFEF' }}
                                 type="number"
                                 value={inputMin}
                                 onChange={handleInputChange}
@@ -80,19 +84,20 @@ export const Timer = () => {
                                 autoFocus 
                             />
                         ) : (
-                            <h1>{min < 10 ? "0" + min : min}:{sec < 10 ? "0" + sec : sec}</h1>
+                            <h3 className='heading-style-headline'>{min < 10 ? "0" + min : min}:{sec < 10 ? "0" + sec : sec}</h3>
                         )}
                     </div>
-                    <div>
+
+                    <div className='button-wrapper'>
                         {!isRunning ? (
-                            <button className='restart' onClick={startTimer}>start</button>
+                            <button className='secondary-button' onClick={startTimer}>Start</button>
                         ) : (
-                            <button className='stop' onClick={pauseTimer}>pause</button>
+                            <button className='secondary-button' onClick={pauseTimer}>Pause</button>
                         )}
-                        <button className='restart' onClick={restart}>reset</button>
+                        <button className='secondary-button' onClick={restart}>Reset</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };

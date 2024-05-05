@@ -1,36 +1,28 @@
 .timer{
     width: 100%;
-    height: 100vh;
-    background-color: skyblue;
     display: flex;
     justify-content: center;
 }
 
-.container{
-    padding-top: 100px;
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1.25rem 1.25rem;
+    border-radius: 0.25rem;
+    background: #1A1A1F;
+    border: 1px solid #3E3E46;
 }
 
-.timer_container{
-    background-color: white;
-    width: 20vw;
-    padding: 1rem 6rem;
-    border-radius: 1rem;
-    box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4);
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
 }
 
-.stop,.restart{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* color: #fff; */
-    font-size: 18px;
-    background-color: skyblue;
-    width: 130px;
-    height: 50px;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
+.input-field {
+    padding: 8px 12px;
+    background: #303137;
 }
 
-.stop{
-    margin-left: 15px;
-}
