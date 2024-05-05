@@ -62,6 +62,13 @@ body {
   max-width: 560px;
 }
 
+.text-style-body-caps {
+  font-size: 17px;
+  line-height: 24px;
+  color: #EFEFEF;
+  text-align: start;
+}
+
 .text-style-footnote {
   font-size: 12px;
   line-height: 16px;
@@ -74,6 +81,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 7rem 0;
   gap: 1.25rem;
   height:200px;
@@ -114,6 +122,18 @@ body {
   cursor: pointer;
 }
 
+.completion-button{
+  color: #EFEFEF;
+  padding: 0.5rem 1.5rem;
+  background: rgba(79, 166, 57, 0.25);
+  border: 1px solid rgba(102, 157, 69, 0.25);
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 .add-task-button {
   display: flex;
   justify-content: center;
@@ -128,4 +148,17 @@ body {
 .add-task-wrapper {
   display: flex;
   gap: 12px;
+}
+
+.task-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.todo-wrapper, .done-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
 }

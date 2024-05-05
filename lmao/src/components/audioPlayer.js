@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import purring from '../assets/purring.mp3';
+import '../index.css';
+import { start, pause } from '../assets';
 
 function AudioPlayer() {
     const audio = new Audio(purring);
@@ -15,8 +17,15 @@ function AudioPlayer() {
 
     return (
         <div>
-            <button onClick={playAudio}>▶️</button>
-            <button onClick={pauseAudio}>⏸</button>
+            <button className='secondary-button' 
+            onClick={playAudio}>
+            <img src={start} alt='start button'/>
+            </button>
+
+            <button className='secondary-button' 
+            onClick={pauseAudio}>
+            <img src={pause} alt='pause button'/>
+            </button>
         </div>
     );
 }
