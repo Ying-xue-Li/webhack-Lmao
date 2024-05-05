@@ -8,7 +8,7 @@ import TaskDone from './TaskDone';
 const TaskSection = () => {
   return (
     <section className="task-section">
-        <div className={`${styles.paddiingX}`}>
+        <div className={`${styles.paddiingX} paddingX`}>
             <div className='container'>
               <div className='task-wrapper'>
                 <AddTask/>

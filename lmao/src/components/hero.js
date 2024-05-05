@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="w-full">
       <div className={`${styles.paddingX}`}>                                                    {/* padding-global */} 
-        <container className='container'>                                                       {/* container */} 
+        <div className='container'>                                                       {/* container */} 
             <div className='hero-wrapper'>                                                      {/* hero_wrapper */} 
                 <div className='hero-content-wrapper'>
                     <h1 
@@ -26,7 +26,7 @@ const Hero = () => {
 
             
           
-        </container>
+        </div>
 
       </div>
 

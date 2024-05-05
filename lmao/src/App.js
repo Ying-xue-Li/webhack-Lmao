@@ -1,5 +1,5 @@
 import AudioPlayer from './components/audioPlayer';
-import Hero from './components/hero'
+import Hero from './components/Hero'
 import TaskSection from './components/TaskSection'
 import './App.css';
 import { Timer } from './components/Timer';
@@ -26,7 +26,7 @@ function App() {
           defer
         />
       </Helmet>
-      <main className={`${styles.flexCenter} flex-col gap-[40px]`}>
+      <main className={`${styles.flexCenter} main-wrapper`}>
         <Hero/>
         {/*<AudioPlayer/>*/}
         <Timer/>

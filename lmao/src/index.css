@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .hero-content-wrapper {
   display: flex;
   flex-direction: column;
@@ -84,7 +90,6 @@ body {
   align-items: center;
   padding: 7rem 0;
   gap: 1.25rem;
-  height:200px;
 }
 
 .card-container {
@@ -153,6 +158,7 @@ body {
 .task-wrapper {
   display: flex;
   flex-direction: column;
+  margin: 0px 0px;
   gap: 80px;
 }
 
