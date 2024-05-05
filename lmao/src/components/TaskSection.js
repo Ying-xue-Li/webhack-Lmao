@@ -64,10 +64,6 @@ const TaskSection = () => {
             />
             )
           )}
-          <div className='todo-wrapper'>
-            <text className={`${styles.Body} text-style-body-caps`}>TO DO</text>
-            <TaskCard/>
-          </div>
           </div>
         </div>
       </div>

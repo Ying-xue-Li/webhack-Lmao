@@ -16,13 +16,13 @@ function AudioPlayer() {
     };
 
     return (
-        <div>
-            <button className='secondary-button' 
+        <div className='audio-wrapper'>
+            <button className='audio-button' 
             onClick={playAudio}>
             <img src={start} alt='start button'/>
             </button>
 
-            <button className='secondary-button' 
+            <button className='audio-button' 
             onClick={pauseAudio}>
             <img src={pause} alt='pause button'/>
             </button>

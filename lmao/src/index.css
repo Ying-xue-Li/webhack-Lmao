@@ -10,6 +10,7 @@ body {
 .main-wrapper {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .hero-content-wrapper {
@@ -190,7 +191,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0px 0px;
-  gap: 80px;
+  gap: 20px;
 }
 
 .todo-wrapper, .done-wrapper {
@@ -205,4 +206,24 @@ body {
   justify-content: center;
   align-items: center;
   gap: 12px;
+}
+
+.audio-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.audio-button{
+  color: #EFEFEF;
+  padding: 0.25rem 1rem;
+  margin: 12px 0px;
+  background: #212126;
+  border: 1px solid #3E3E46;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  cursor: pointer;
 }

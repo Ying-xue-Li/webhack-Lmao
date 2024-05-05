@@ -114,7 +114,7 @@ export default function CardsBox() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "20vh"
+        height: "400px"
       }}
     >
       <div

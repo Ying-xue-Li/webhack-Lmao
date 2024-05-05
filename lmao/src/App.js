@@ -1,12 +1,11 @@
 import AudioPlayer from './components/audioPlayer';
-import Hero from './components/hero'
+import Hero from './components/Hero'
 import TaskSection from './components/TaskSection'
 import './App.css';
 import { Timer } from './components/Timer';
 import styles from './style';
 import { Helmet } from 'react-helmet';
 import CardsBox from './components/cardsBox'
-import  {TodoWrapper}  from './components/TodoWrapper';
 
 function App() {
   return (
@@ -28,8 +27,8 @@ function App() {
         />
       </Helmet>
       <main className={`${styles.flexCenter} main-wrapper`}>
-        <Hero/>
         <AudioPlayer/>
+        <Hero/>
         <Timer />
         <TaskSection/>
         <CardsBox />
