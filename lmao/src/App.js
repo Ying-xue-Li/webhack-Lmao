@@ -1,6 +1,6 @@
 import AudioPlayer from './components/audioPlayer';
 import Hero from './components/hero'
-import TaskCard from './components/TaskCard'
+import TaskSection from './components/TaskSection'
 import './App.css';
 import { Timer } from './components/Timer';
 import styles from './style';
@@ -30,7 +30,7 @@ function App() {
       <h1>purring player</h1>
       <AudioPlayer/>
       <Timer/>
-      <TaskCard/>
+      <TaskSection/>
       </main>
     </div>
   );

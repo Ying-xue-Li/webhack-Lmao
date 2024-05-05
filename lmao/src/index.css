@@ -7,6 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.hero-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 0.5rem;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 2.5rem;
+}
+
+.task-section {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
 .heading-style-h1 {
   font-size: 68px;
   line-height: 96px;
@@ -45,7 +68,6 @@ body {
   font-weight: 600;
   color: #EFEFEF;
   text-align: center;
-  max-width: 560px;
 }
 
 .container {
@@ -54,6 +76,15 @@ body {
   justify-content: center;
   padding: 7rem 0;
   gap: 1.25rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  border: 2px solid #3E3E46;
+  border-radius: 4px;
+  width: 640px;
 }
 
 .primary-button {
@@ -80,4 +111,20 @@ body {
   line-height: 16px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.add-task-button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0.75rem 1.25rem;
+  background: #1A1A1F;
+  border: 2px solid #3E3E46;
+  border-radius: 4px;
+  width: 640px;
+}
+
+.add-task-wrapper {
+  display: flex;
+  gap: 12px;
 }
