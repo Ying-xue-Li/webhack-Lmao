@@ -27,15 +27,11 @@ function App() {
       </Helmet>
       <main className={`${styles.flexCenter} flex-col gap-[40px]`}>
       <Hero/>
+      <h1>purring player</h1>
       <AudioPlayer/>
       <Timer/>
       <TaskCard/>
       </main>
-      <h1>purring player</h1>
-      <AudioPlayer />
-      <Timer />
-      <Hero />
-      <TaskCard />
     </div>
   );
 }
