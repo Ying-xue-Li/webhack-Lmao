@@ -6,6 +6,7 @@ import { Timer } from './components/Timer';
 import styles from './style';
 import { Helmet } from 'react-helmet';
 import CardsBox from './components/cardsBox'
+import MovingEyes from './components/MovingEye'
 
 function App() {
   return (
@@ -26,7 +27,13 @@ function App() {
           defer
         />
       </Helmet>
+      <div style={{
+          display: "flex",
+          justifyContent: "center"}}>
+        <MovingEyes />
+      </div>
       <main className={`${styles.flexCenter} main-wrapper`}>
+      
         <AudioPlayer/>
         <Hero/>
         <Timer />

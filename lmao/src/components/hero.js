@@ -5,7 +5,10 @@ import '../index.css';
 const Hero = () => {
   return (
     <section className="w-full">
-      <div className={`${styles.paddingX}`}>                                                    {/* padding-global */} 
+      <div className={`${styles.paddingX}`}> 
+      <button className='primary-button'>
+                    Click to hear purring
+                </button>                                                   {/* padding-global */} 
         <div className='container'>                                                       {/* container */} 
             <div className='hero-wrapper'>                                                      {/* hero_wrapper */} 
                 <div className='hero-content-wrapper'>
@@ -18,9 +21,7 @@ const Hero = () => {
                     </text>
                 </div>
                 
-                <button className='primary-button'>
-                    Get started
-                </button>
+                
 
             </div> 
 
