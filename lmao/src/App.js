@@ -5,6 +5,8 @@ import './App.css';
 import { Timer } from './components/Timer';
 import styles from './style';
 import { Helmet } from 'react-helmet';
+import CardsBox from './components/cardsBox'
+import MovingEyes from './components/movingEye';
 
 function App() {
   return (
@@ -26,7 +28,17 @@ function App() {
         />
       </Helmet>
       <main className={`${styles.flexCenter} flex-col gap-[40px]`}>
+      <div
+        style={{
+          backgroundColor: "white",
+          display: "flex",
+          justifyContent: "center"
+        }}
+      >
+        <MovingEyes />
+      </div>
       <Hero/>
+      <CardsBox />
       <h1>purring player</h1>
       <AudioPlayer/>
       <Timer/>

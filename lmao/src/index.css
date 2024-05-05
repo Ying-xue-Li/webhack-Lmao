@@ -76,6 +76,7 @@ body {
   justify-content: center;
   padding: 7rem 0;
   gap: 1.25rem;
+  height:200px;
 }
 
 .card-container {
