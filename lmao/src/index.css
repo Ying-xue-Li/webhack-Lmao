@@ -10,7 +10,6 @@ body {
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 40px;
 }
 
 .hero-content-wrapper {
@@ -83,12 +82,22 @@ body {
   text-align: center;
 }
 
+.card-task-details-title {
+  display: flex;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #EFEFEF;
+  text-align: center;
+  justify-content: space-between;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 7rem 0;
+  padding: 5rem 0;
   gap: 1.25rem;
 }
 
@@ -96,9 +105,31 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0.75rem 1.25rem;
-  border: 2px solid #3E3E46;
+  border: 1px solid #3E3E46;
   border-radius: 4px;
-  width: 640px;
+  max-width: 640px;
+}
+
+.advice-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem;
+  width: 20rem;
+  cursor: "pointer";
+  border: 1px solid #3E3E46;
+  border-radius: 4px;
+}
+
+.card-task-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #3E3E46;
+  border-radius: 4px;
+  max-width: 640px;
+  gap: 1.25rem;
 }
 
 .primary-button {
@@ -136,7 +167,6 @@ body {
   font-size: 12px;
   line-height: 16px;
   font-weight: 600;
-  cursor: pointer;
 }
 
 .add-task-button {
@@ -158,6 +188,7 @@ body {
 .task-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 0px 0px;
   gap: 80px;
 }

@@ -1,26 +1,9 @@
+import '../index.css';
+
 export default function Card({ color, title, text1, text2 }) {
     return (
       <div
-        // className={
-        //   `bg-hc-${courseData.color} w-full h-full rounded-3xl p-10 border border-black flex flex-col justify-between cursor-pointer`
-        // }
-        style={{
-          width: 400,
-          border: "1px solid black",
-          height: 300,
-          borderRadius: 20,
-          padding: 22,
-          backgroundColor: color,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
-          alignItems: "flex-start",
-          cursor: "pointer",
-          flexShrink: 0,
-          margin: 15,
-          boxSizing: "border-box"
-        }}
-      >
+        className='advice-card'>
         <div
           className="flex flex-col"
           style={{
@@ -29,17 +12,8 @@ export default function Card({ color, title, text1, text2 }) {
             alignItems: "flex-start"
           }}
         >
-          {/* <span
-            // className={` ${OpticianSans.className} text-5xl`}
-            style={{
-              fontFamily: "Optician Sans",
-              fontSize: 56
-            }}
-          >
-            Hope this one helps
-          </span> */}
           <span
-            className="text-4xl font-thin"
+            className="text-style-headline"
             style={{
               fontSize: 38,
               letterSpacing: 2,
