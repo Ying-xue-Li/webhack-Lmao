@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import purring from '../assets/purring.mp3';
 import '../index.css';
 import { start, pause } from '../assets';
