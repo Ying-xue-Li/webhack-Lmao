@@ -26,6 +26,7 @@ body {
   align-items: center;
   justify-items: center;
   gap: 2.5rem;
+  height: 100px;
 }
 
 .task-section {
@@ -79,7 +80,6 @@ body {
   line-height: 16px;
   font-weight: 600;
   color: #EFEFEF;
-  text-align: center;
 }
 
 .card-task-details-title {
@@ -99,6 +99,7 @@ body {
   align-items: center;
   padding: 5rem 0;
   gap: 1.25rem;
+  height: 10px;
 }
 
 .card-container {

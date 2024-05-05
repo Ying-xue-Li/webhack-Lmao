@@ -14,12 +14,12 @@ const Hero = () => {
                     Deadline
                     </h1>
                     <text className={`${styles.Body} text-style-body`}>
-                        Stay on top of your tasks, effortlessly manage your study time and boost your productivity with our task manager webapp!
+                        Stay on top of your tasks, effortlessly manage your study time and boost your productivity with our purring cat!
                     </text>
                 </div>
                 
                 <button className='primary-button'>
-                    Get started
+                    Click the button below to hear cat purring
                 </button>
 
             </div> 
