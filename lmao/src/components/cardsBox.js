@@ -19,7 +19,7 @@ const cardData = [
   {
     color: colors.gray,
     id: 2,
-    title: "Mental Thrapy",
+    title: "Mental Therapy",
     text1:"Feeling overwhelmed? call (03) 9905 3020",
     text2:"Did you know that every student can has 10 free therapy \
     sessions per year at the uni? https://www.monash.edu/students/support/health/mental-health/resources "
