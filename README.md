@@ -1,4 +1,4 @@
-# Website link
+# Stress Saver Suki
 
 Access our stress relief website here: https://stress-saver-suki.netlify.app/
 
