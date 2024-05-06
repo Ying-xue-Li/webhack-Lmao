@@ -49,7 +49,7 @@ You can easily create, edit, and delete tasks you want to accomplish today. Our 
 
 ## Contribution
 
-Functions, logic: Yingxue Li
+Functions, logic: Yingxue Li, Ammaar Khan
 
 
 Design, styling: Ammaar Khan
