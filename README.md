@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Website link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Access our stress relief website here: https://stress-saver-suki.netlify.app/
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Our website integrates decompression, AI assistant, time, and task management toolbox into one, allowing you to easily cope with academic pressure during deadlines using just this one website.
 
-### `npm start`
+### Hear continuous purring from Suki
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+We use the <audio> tag to create an endless loop of purring sounds, which can effectively help you relieve stress.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<img width="825" alt="Screen Shot 2024-05-06 at 09 55 45" src="https://github.com/Ying-xue-Li/webhack-Lmao/assets/118246943/e90c9136-446f-443d-85fb-b2cd49e2e958">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Ask anything to our AI cat therapist
 
-### `npm run build`
+Suki is our AI therapist. You can click on the cat icon in the bottom right corner to open the chatbox and ask her any questions about stress relief and task management. She's always warm and friendly, ready to provide you with patient advice and help you break down your tasks into manageable steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="454" alt="Screen Shot 2024-05-06 at 09 55 27" src="https://github.com/Ying-xue-Li/webhack-Lmao/assets/118246943/2e96f4a3-aa94-4e61-b6b9-c20f184d40c1">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Get advice from our team
 
-### `npm run eject`
+Our team members brainstormed and provided some stress-relieving tips in the cards at the bottom. We hope they can help you during your challenging deadline periods.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1920" alt="Screen Shot 2024-05-06 at 09 57 36" src="https://github.com/Ying-xue-Li/webhack-Lmao/assets/118246943/0c71ee23-1818-4c16-9a8f-90e11bd8f216">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Tool box: ADHD friendly timer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The traditional 25-minute Pomodoro timer isn't suitable for individuals with ADHD because they find it harder to get into a state of focus. However, once they're in that state, they can maintain intense concentration. The 25-minute interval is impractical for them, as it interrupts their flow and adds more pressure. Therefore, we've designed a customizable timer where you can focus for longer periods, even if you want to concentrate for three hours straight.
+Please click on the numbers on the dial to set the time.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="1610" alt="Screen Shot 2024-05-06 at 10 00 12" src="https://github.com/Ying-xue-Li/webhack-Lmao/assets/118246943/3d955fa1-8d7c-48a6-a1af-c9e2ac292b34">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Tool box: To Do List
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can easily create, edit, and delete tasks you want to accomplish today. Our interface is very cool and minimalist.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img width="1336" alt="Screen Shot 2024-05-06 at 10 04 25" src="https://github.com/Ying-xue-Li/webhack-Lmao/assets/118246943/f73541f3-18bf-4f49-9638-b5a8a9b38ca7">
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contribution
 
-### Advanced Configuration
+Functions, logic: Yingxue Li
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Design, styling: Ammaar Khan
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+Video filming: Paul Claughton, Yingxue Li
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Idea support: Michal Novomestky
+
