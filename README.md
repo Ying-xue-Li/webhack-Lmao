@@ -4,11 +4,11 @@ Access our stress relief website here: https://stress-saver-suki.netlify.app/
 
 ## Features
 
-Our website integrates decompression, AI assistant, time, and task management toolbox into one, allowing you to easily cope with academic pressure during deadlines using just this one website.
+Our website integrates decompression, AI assistant, time and task management toolbox into one, allowing you to easily cope with academic pressure during deadlines using just this one website.
 
 ### Hear continuous purring from Suki
 
-We use the <audio> tag to create an endless loop of purring sounds, which can effectively help you relieve stress.
+We use the `audio` tag to create an endless loop of purring sounds, which can effectively help you relieve stress.
 
 
 <img width="825" alt="Screen Shot 2024-05-06 at 09 55 45" src="https://github.com/Ying-xue-Li/webhack-Lmao/assets/118246943/e90c9136-446f-443d-85fb-b2cd49e2e958">
